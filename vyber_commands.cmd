@@ -15,17 +15,9 @@ set customtitle=Vyber Terminal / %date%
 
 ::title
 :loading   
-mode 29,10                                                                                                                                                
-echo  __                __
-echo  \ \  ____  __  __/ /
-echo   \ \/ __ \/ / / / / 
-echo   / / / / / /_/ / /  
-echo  / /_/ /_/\__,_/_/ 
-echo /_/ ᵉⁿᵍᶦⁿᵉ 
-echo.
 echo Loading Resources...
 timeout %launchtime% >nul
-::if all resources load, then cont' if resources fail, goto to error page.
+:: if all resources load, then cont' if resources fail, goto to error page.
 goto main
 :: paramter checks
 :main
